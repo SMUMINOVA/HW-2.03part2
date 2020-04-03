@@ -21,6 +21,12 @@ namespace hw_1._03p2
                 System.Console.WriteLine($"Title of book is {title}");
             }
         }
+        class Content {
+            public string content {get; set;}
+            public void Show(){
+                System.Console.WriteLine($"Content of book is {content}");
+            }
+        }
 
     }
 }
