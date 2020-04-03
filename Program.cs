@@ -6,7 +6,15 @@ namespace hw_1._03p2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
+        
+        class Author{
+            public string author {get; set;}
+            public void Show(){
+                System.Console.WriteLine($"Author of book is {author}");
+            }
+        }
+
     }
 }
